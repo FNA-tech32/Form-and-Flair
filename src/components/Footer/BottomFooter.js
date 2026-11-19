@@ -19,27 +19,27 @@ const BottomFooter = () => {
         </div>
         <ul className="icons">
           <li>
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
               <img src={facebook} alt="Facebook" />
             </a>
           </li>
           <li className="twitter">
-            <a href="#" aria-label="Twitter">
+            <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
               <img src={twitter} alt="Twitter" />
             </a>
           </li>
           <li>
-            <a href="#" aria-label="Google">
+            <a href="https://www.google.com/" aria-label="Google" target="_blank" rel="noopener noreferrer">
               <img src={google} alt="Google" />
             </a>
           </li>
           <li className="hide">
-            <a href="#" aria-label="YouTube">
+            <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
               <img src={youtube} alt="YouTube" />
             </a>
           </li>
           <li className="hide">
-            <a href="#" aria-label="Pinterest">
+            <a href="https://www.pinterest.com/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer">
               <img src={pinterest} alt="Pinterest" />
             </a>
           </li>

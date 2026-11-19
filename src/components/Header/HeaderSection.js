@@ -26,7 +26,7 @@ const HeaderSection = () => {
               <div>Design</div>
             </h1>
             <div className="line"></div>
-            <a className="read-more" href="#">
+            <a className="read-more" href="#about">
               Read More
             </a>
             <p>

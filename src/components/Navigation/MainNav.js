@@ -14,7 +14,7 @@ const MainNav = ({ openBar, setOpenBar, openoScial, setOpenSocial }) => {
               onClick={() => setOpenBar(!openBar)}
               className="bars fas fa-bars"
             ></i>
-            <a href="#" className="logo-link">
+            <a href="/" className="logo-link">
               <img className="logo" src={logo} alt="Form & Flair" />
             </a>
             <i
@@ -31,13 +31,13 @@ const MainNav = ({ openBar, setOpenBar, openoScial, setOpenSocial }) => {
               className="exit fas fa-times"
             ></i>
             <li className="list-item" onClick={() => setOpenBar(!openBar)}>
-              <a href="#">Home</a>
+              <a href="/">Home</a>
             </li>
             <li className="list-item" onClick={() => setOpenBar(!openBar)}>
               <a href="#about">About</a>
             </li>
             <li className="logo-item" onClick={() => setOpenBar(!openBar)}>
-              <a href="#" className="logo-link">
+              <a href="/" className="logo-link">
                 <img className="logo" src={logo} alt="Form & Flair" />
               </a>
             </li>

@@ -40,7 +40,7 @@ const About = () => {
             brands and colors, iPads at every seat, and drink menu featuring
             fresh pressed juices and hand-crafted coffees
           </p>
-          <a href="#">Read more</a>
+          <a href="#about">Read more</a>
         </div>
       </div>
       <img className="top-shape" src={topShape} alt="shape" />

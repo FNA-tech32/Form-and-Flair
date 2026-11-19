@@ -18,7 +18,7 @@ const Proccess = () => {
       <img src={mobileLogo} alt="mobile-logo" className="mobile-logo" />
       <div className="container">
         <div className="left" data-aos="zoom-in">
-          <img src={leftBg} alt="photo" />
+          <img src={leftBg} alt="Sterilization process" />
         </div>
 
         <div className="right" data-aos="zoom-in">

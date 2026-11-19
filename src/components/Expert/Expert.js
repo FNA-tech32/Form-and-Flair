@@ -16,7 +16,7 @@ const Expert = () => {
       <img src={bigLogo} alt="logo" className="big-logo" />
       <img className="frame" src={frame} alt="frame" />
       <div className="container">
-        <a href="#" className="view">
+        <a href="#team" className="view">
           View all team
         </a>
         <div className="left" data-aos="zoom-out-right">

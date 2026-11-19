@@ -29,41 +29,41 @@ const TopNav = ({ openoScial, setOpenSocial }) => {
         <div className="last-description">
           <div className="lang">
             <h4 className="en">
-              <a href="#">En</a>
+              <a href="#en">En</a>
             </h4>
             <h4 className="ru">
-              <a href="#">Ru</a>
+              <a href="#ru">Ru</a>
             </h4>
           </div>
           <ul className="social">
             <li>
-              <a href="#">
-                <img src={facebook} alt="icon" />
+              <a href="https://www.facebook.com/" aria-label="Facebook" target="_blank" rel="noopener noreferrer">
+                <img src={facebook} alt="Facebook" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={twitter} alt="icon" />
+              <a href="https://twitter.com/" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
+                <img src={twitter} alt="Twitter" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={google} alt="icon" />
+              <a href="https://www.google.com/" aria-label="Google" target="_blank" rel="noopener noreferrer">
+                <img src={google} alt="Google" />
               </a>
             </li>
             <li>
-              <a href="#">
-                <img src={youtube} alt="icon" />
+              <a href="https://www.youtube.com/" aria-label="YouTube" target="_blank" rel="noopener noreferrer">
+                <img src={youtube} alt="YouTube" />
               </a>
             </li>
             <li className="hidden">
-              <a href="#">
-                <img src={pinterest} alt="icon" />
+              <a href="https://www.pinterest.com/" aria-label="Pinterest" target="_blank" rel="noopener noreferrer">
+                <img src={pinterest} alt="Pinterest" />
               </a>
             </li>
             <li className="hidden">
-              <a href="#">
-                <img src={cart} alt="icon" />
+              <a href="#cart" aria-label="Cart">
+                <img src={cart} alt="Cart" />
               </a>
             </li>
           </ul>
