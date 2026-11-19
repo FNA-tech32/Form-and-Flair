@@ -1,6 +1,7 @@
 {
-    "outputDirectory": ".",
-    "rewrites": [
-      { "source": "/(.*)", "destination": "/index.html" }
-    ]
-  }
+  "buildCommand": "yarn build",
+  "outputDirectory": "build",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
